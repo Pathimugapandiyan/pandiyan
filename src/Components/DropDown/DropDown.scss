@@ -1,0 +1,72 @@
+@import "../../variables.scss";
+.conatiner {
+  // background-color: red;
+  margin-top: 20px;
+}
+.conatinere {
+  margin-top: 20px;
+}
+.headerr {
+  display: flex;
+  align-items: center;
+}
+.buttons {
+  height: 30px;
+  width: 200px;
+  padding: 20px;
+  background-color: $light-grey;
+  border-radius: 5px;
+  border-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 50px 0 50px;
+  cursor: pointer;
+}
+.drop-menu {
+  background-color: #f6f6f6;
+  margin-top: 10px;
+  width: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 50px 0 50px;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #fff;
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
+  flex-direction: column;
+  z-index: 1;
+}
+.buttons.active + .drop-menu {
+  display: flex;
+}
+.option-button:hover {
+  background-color: #f0f0f0;
+}
+.drop-down:hover {
+  background-color: #f0f0f0;
+}
+.selected .drop-down {
+  background-color: #d4edda;
+}
+.drop-down {
+  height: 30px;
+  width: 200px;
+  background-color: $light-grey;
+  border-style: none;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.btns {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.conatiner,
+.conatinere {
+  position: relative;
+}

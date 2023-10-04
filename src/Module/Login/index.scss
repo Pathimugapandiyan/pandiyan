@@ -1,0 +1,26 @@
+.login input{
+    width:60%;
+    height:100%;
+}
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #a7a4a4;
+    border-radius: 5px;
+    margin-top: 30%;
+  }
+  .login_input{
+    width:118%;
+    padding-left: 80px;
+  }
+  .btn-primary {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
